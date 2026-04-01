@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Nani!🌸</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fffaf5;
+            scroll-behavior: smooth;
+        }
+        .playfair { font-family: 'Playfair Display', serif; }
+        
+        /* Hero Section Styling */
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+                        url('https://github.com/RoyalKeyboard911/Picture-Nani/blob/main/83b63cc1-8adf-4d7b-9962-51221d4246ab.JPG?raw=true');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 90vh;
+        }
+
+        /* Glassmorphism effects */
+        .glass {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        /* Video Container for Shorts */
+        .video-container {
+            position: relative;
+            padding-bottom: 177.77%; /* 9:16 Ratio for Shorts */
+            height: 0;
+            overflow: hidden;
+            max-width: 350px;
+            margin: auto;
+            border-radius: 20px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+        }
+
+        .img-card {
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        .img-card:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero-bg flex items-center justify-center text-center text-white px-4">
+        <div data-aos="fade-up" data-aos-duration="1500">
+            <p class="uppercase tracking-widest mb-4 font-semibold">Celebrating a Legend</p>
+            <h1 class="playfair text-5xl md:text-8xl mb-6">Happy Birthday, <br> Nani!</h1>
+            <p class="text-lg md:text-xl max-w-2xl mx-auto font-light">This is a token of appreciation from your grandson, a gift better then whatever your children gave you :D </p>
+            <a href="#message" class="mt-8 inline-block bg-white text-gray-900 px-8 py-3 rounded-full font-semibold hover:bg-orange-100 transition shadow-lg">Read Our Message</a>
+        </div>
+    </section>
+
+    <section id="message" class="py-20 px-6 max-w-4xl mx-auto text-center">
+        <div class="glass p-10 shadow-xl" data-aos="zoom-in">
+            <h2 class="playfair text-4xl text-gray-800 mb-6">A Special Note</h2>
+            <p class="text-gray-600 leading-relaxed text-lg italic">
+                "Nani, your the heart and glue of this family. Thank you for cherishing each one of us with unconditional love. Cooking delicious food for us all making are day better. Cleaning and maintaining multiple households. Not taking a break for a single day for so many decades. All without a single complaint. "
+            </p>
+            <p class="mt-6 font-semibold text-orange-600">— With love, your whole family (they echo the sentiment)</p>
+        </div>
+    </section>
+
+    <section class="py-20 bg-orange-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="playfair text-4xl mb-4">A video</h2>
+                <p class="text-gray-500">Press play to see a memory</p>
+            </div>
+            
+            <div data-aos="fade-up">
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/-GtJLMqxPWo" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 container mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="playfair text-4xl mb-4">Gallery of Memories</h2>
+            <div class="w-24 h-1 bg-orange-300 mx-auto"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="img-card rounded-xl overflow-hidden shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                <img src="https://github.com/RoyalKeyboard911/Picture-Nani/blob/main/13396c83-ba66-4b1b-851e-c1c00a0d5d42.JPG?raw=true" class="w-full h-80 object-cover" alt="Memory 1">
+            </div>
+            <div class="img-card rounded-xl overflow-hidden shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                <img src="https://github.com/RoyalKeyboard911/Picture-Nani/blob/main/23b3c357-d097-4ad1-9068-4bb5d615d4fc.JPG?raw=true" class="w-full h-80 object-cover" alt="Memory 2">
+            </div>
+            <div class="img-card rounded-xl overflow-hidden shadow-lg" data-aos="fade-up" data-aos-delay="300">
+                <img src="https://github.com/RoyalKeyboard911/Picture-Nani/blob/main/534e2603-0089-48cd-afe7-6a8fa346c968.JPG?raw=true" class="w-full h-80 object-cover" alt="Memory 3">
+            </div>
+            <div class="img-card rounded-xl overflow-hidden shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                <img src="https://github.com/RoyalKeyboard911/Picture-Nani/blob/main/7a3e4cbc-d375-43ea-8905-c376272b592d.JPG?raw=true" class="w-full h-80 object-cover" alt="Memory 4">
+            </div>
+            <div class="img-card rounded-xl overflow-hidden shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                <img src="https://github.com/RoyalKeyboard911/Picture-Nani/blob/main/Fam%20pic.JPG?raw=true" class="w-full h-80 object-cover" alt="Family Photo">
+            </div>
+            <div class="img-card rounded-xl overflow-hidden shadow-lg" data-aos="fade-up" data-aos-delay="300">
+                <img src="https://github.com/RoyalKeyboard911/Picture-Nani/blob/main/a61f3886-952b-4bb5-a0e2-7073b198edd6.JPG?raw=true" class="w-full h-80 object-cover" alt="Memory 5">
+            </div>
+            <div class="img-card rounded-xl overflow-hidden shadow-lg md:col-span-2 lg:col-span-1" data-aos="fade-up" data-aos-delay="100">
+                <img src="https://github.com/RoyalKeyboard911/Picture-Nani/blob/main/ed06827b-bf47-45bb-9df4-d7aa20a687ba.JPG?raw=true" class="w-full h-80 object-cover" alt="Memory 6">
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 bg-gray-900 text-white text-center">
+        <h3 class="playfair text-2xl mb-2">Happiest Birthday</h3>
+        <p class="text-gray-400">Created with love by Advay</p>
+        <div class="mt-6 text-sm text-gray-500"> &bull; A special day for a special person</div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+</body>
+</html>
